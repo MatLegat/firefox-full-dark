@@ -9,7 +9,8 @@ Better if used with Mozilla's Dark theme enabled.
 ## Themed elements
 - AwesomeBar autocomplete popup;
 - New Tab / Default Home page;
-- Some menu popups.
+- Some menu popups;
+- Refined find bar (credits to [RavinduL](https://www.reddit.com/r/FirefoxCSS/comments/7fxtdm/refined_find_bar_top_right_aligned_animated/)).
 
 ## Installation
 ### Manual Installation

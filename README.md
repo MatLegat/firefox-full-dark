@@ -6,6 +6,8 @@ Complements Firefox's default Dark theme.
 
 Better if used with Mozilla's Dark theme enabled.
 
+Since complete themes do not work with Firefox 57 and higher, this theme uses custom `userChrome.css` and `userContent.css` files that must be imported to your current Firefox profile.
+
 ## Themed elements
 - AwesomeBar autocomplete popup;
 - New Tab / Default Home page;

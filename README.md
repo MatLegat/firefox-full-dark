@@ -26,9 +26,11 @@ Windows installation script is not available (yet).
 
 ## Screenshots
 ![](preview/newtab.png)
-![](preview/menu.png)
 ![](preview/awesomebar.png)
+![](preview/menu.png)
 
 ## Known Issues
 - Downloads, Pocket, Favorits and others popups not themed;
-- about:preferences and about:addons not themed.
+- about:preferences and about:addons not themed;
+- Title bar not themed;
+- Scrollbar not themed.

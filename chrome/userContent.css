@@ -1,0 +1,133 @@
+@-moz-document regexp('about:newtab|about:home|about:blank') {
+
+  /* BODY: */
+  html,
+  body
+  {
+    background-color: #23232d !important;
+    background: #23232d !important;
+    color: #eee !important;
+  }
+
+  /* CARDS ELEMENTS: */
+  .edit-topsites-wrapper .edit-topsites-button button
+  {
+    color: #ddd !important;
+  }
+  .edit-topsites-wrapper .edit-topsites-button
+  {
+    border-right: 1px solid #666 !important;
+  }
+  .top-sites-list .top-site-outer .context-menu-button,
+  .card-outer .context-menu-button
+  {
+    background-color: #333 !important;
+    fill: rgba(243, 243, 243, 0.8) !important;
+    box-shadow: 0 2px rgba(243, 243, 243, 0.1) !important;
+    border: 1px solid #666 !important;
+  }
+  .card
+  {
+    background: #444 !important;
+  }
+  .card-host-name,
+  .card-context
+  {
+    color: #bbb !important;
+  }
+
+  /* POPUPS: */
+  .collapsible-section .section-top-bar .info-option
+  {
+    background-color: #333 !important;
+    background: #333 !important;
+	border: 1px solid #444 !important;
+  }
+  .collapsible-section .section-top-bar .section-info-option .info-option::before
+  {
+    fill: #333 !important;
+    stroke: #555 !important;
+  }
+  context-menu-list
+  {
+    background: #444 !important;
+  }
+  .prefs-pane .sidebar,
+  .prefs-pane .actions
+  {
+    background: #333 !important;
+    color: #eee !important;
+    border-left: 1px solid #666 !important;
+  } 
+  .prefs-pane .prefs-modal-inner-wrapper .options
+  {
+    background: #555 !important;
+    border: 1px solid #666;
+  }
+  #contentSearchSettingsButton
+  {
+    color: #000 !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    opacity: 0.3 !important;
+  }
+ 
+  /* ICONS FILL: */
+  .collapsible-section .section-top-bar .info-option-icon,
+  .search-wrapper .search-button,
+  .search-wrapper .search-label,
+  .prefs-pane-button button,
+  .context-menu-list .icon,
+  .card-context-icon
+  {
+    fill: rgba(230, 230, 230, 0.7) !important;
+  }
+  #onboarding-overlay-button-watermark-icon
+  {
+    opacity: 0.5 !important;
+  }
+
+  /* SETTINGS: */
+  .prefs-pane-button button:hover
+  {
+    background-color: #555 !important;
+  }
+  .context-menu-list
+  {
+    background: #555 !important;
+  }
+
+
+  /* SEARCH BAR: */
+  .search-wrapper input
+  {
+    background-color: #222 !important;
+    background: #222 !important;
+    box-shadow: 0 1px 4px 0 rgba(243, 243, 243, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.15) !important;
+  }
+  .search-wrapper:hover input
+  {
+    box-shadow: 0 1px 4px 0 rgba(243, 243, 243, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.25) !important;
+  }
+  #searchSuggestionTable,
+  .contentSearchSuggestionTable
+  {
+    background-color: #333 !important;
+    background: #333 !important;
+  }
+  .contentSearchHeaderRow,
+  #contentSearchDefaultEngineHeader,
+  .contentSearchHeaderRow,
+  #contentSearchSearchWithHeader
+  {
+    background-color: #444 !important;
+    background: #444 !important;
+    color: #f3f3f3 !important;
+    border: none !important;
+  }
+  .contentSearchSuggestionsList
+  {
+    border: none !important;
+  }
+
+}

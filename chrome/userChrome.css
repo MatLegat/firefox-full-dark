@@ -1,0 +1,82 @@
+@import url(./findBar.css);
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* AwesomeBar Popup */
+#PopupAutoCompleteRichResult,
+.autocomplete-richlistbox,
+.search-panel-header,
+.search-panel-one-offs
+{
+  background-color: #474749 !important;
+  color: #f0f0f0 !important;
+}
+#PopupAutoCompleteRichResult
+{
+  border: 1px solid #666 !important;
+}
+.ac-url-text,
+.ac-separator,
+.ac-action-text
+{
+  color: #ccc !important;
+}
+.search-panel-header,
+.search-panel-one-offs
+{
+  border-top: 1px solid #777 !important;
+}
+.search-panel-input-value
+{
+  font-weight: bold;
+  color: #fff !important;
+}
+
+/* Menu Popups */
+.PanelUI-subView,
+.panel-subview-body
+{
+  background-color: #333 !important;
+  color: #ddd !important;
+}
+.PanelUI-subView :hover,
+.panel-subview-body :hover
+{
+  color: #ddd !important;
+}
+#overflowMenu-customize-button
+{
+  border: 1px solid #666 !important;
+  background-color: #555 !important;
+  color: #ddd !important;
+}
+.panel-arrowcontent
+{
+  border: 1px solid #666 !important;
+}
+.panel-arrow
+{
+  fill: #333 !important;
+  stroke: #777 !important;
+}
+toolbarbutton :hover
+{
+  color: red !important;
+}
+toolbarseparator
+{
+  border-top: 1px solid #555 !important;
+}
+.panel-subview-footer
+{
+  border-top: 1px solid #888 !important;
+}
+.panel-header
+{
+  border-bottom: 1px solid #666 !important;
+}
+#appMenu-zoom-controls #appMenu-zoomReset-button
+{
+  border: 1px solid #555 !important;
+  background: #444 !important;
+}

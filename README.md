@@ -6,10 +6,13 @@ Complements Firefox's default Dark theme.
 
 Better if used with Mozilla's Dark theme enabled.
 
+Since complete themes do not work with Firefox 57 and higher, this theme uses custom `userChrome.css` and `userContent.css` files that must be imported to your current Firefox profile.
+
 ## Themed elements
 - AwesomeBar autocomplete popup;
 - New Tab / Default Home page;
-- Some menu popups.
+- Some menu popups;
+- Refined find bar (credits to [RavinduL](https://www.reddit.com/r/FirefoxCSS/comments/7fxtdm/refined_find_bar_top_right_aligned_animated/)).
 
 ## Installation
 ### Manual Installation
@@ -26,9 +29,11 @@ Windows installation script is not available (yet).
 
 ## Screenshots
 ![](preview/newtab.png)
-![](preview/menu.png)
 ![](preview/awesomebar.png)
+![](preview/menu.png)
 
 ## Known Issues
-- Downloads, Pocket, Favorits and others popups not themed;
-- about:preferences and about:addons not themed.
+- Downloads, Pocket, Favorites and other popups are not themed;
+- about:preferences and about:addons are not themed;
+- Title bar is not themed;
+- Scrollbar is not themed.

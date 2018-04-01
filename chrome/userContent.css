@@ -1,13 +1,45 @@
-@-moz-document regexp('about:newtab|about:home|about:blank') {
+@-moz-document regexp('about:newtab|about:home|about:blank|about:preferences.*') {
 
   /* BODY: */
   html,
-  body
+  body,
+  vbox.main-content,
+  vbox.main-content hbox,
+  richlistbox#categories,
+  vbox.navigation,
+  menulist,
+  textbox,
+  treecol
   {
     background-color: #23232d !important;
     background: #23232d !important;
     color: #eee !important;
   }
+
+  /* xul|*.checkbox-check, */
+  /* xul|*.radio-check */
+  /* {
+    background-color: #222 !important;
+  } */
+
+  /* PREFERENCES: */
+  vbox.navigation .category:not([selected])
+  {
+    color: #ddd !important;
+  }
+  #engineChildren
+  {
+    background-color: #ddd;
+  }
+  /* {
+    background-color: #23232d !important;
+  } */
+
+  /* vbox.navigation .category.selected
+  {
+    color: #0A84FF !important;
+  } */
+
 
   /* CARDS ELEMENTS: */
   .edit-topsites-wrapper .edit-topsites-button button
@@ -142,6 +174,10 @@
   .block-snippet-button
   {
     filter: invert(100%);
+  }
+  #snippets-container a
+  {
+    color: #aaf !important;
   }
 
 }

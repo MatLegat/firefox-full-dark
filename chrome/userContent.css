@@ -8,7 +8,7 @@
     background: #23232d !important;
     color: #eee !important;
   }
-  
+
   /* CARDS ELEMENTS: */
   .edit-topsites-wrapper .edit-topsites-button button
   {
@@ -144,4 +144,16 @@
     filter: invert(100%);
   }
 
+}
+
+/* ERROR PAGES */
+body.neterror
+{
+  background-color: #23232d !important;
+  background: #23232d !important;
+  color: #eee !important;
+}
+body.neterror .title-text
+{
+  color: #fff !important;
 }

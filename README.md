@@ -12,6 +12,8 @@ Since complete themes do not work with Firefox 57 and higher, this theme uses cu
 - AwesomeBar autocomplete popup;
 - New Tab / Default Home page;
 - Some menu popups;
+- Preferences page;
+- Error pages;
 - Refined find bar (credits to [RavinduL](https://www.reddit.com/r/FirefoxCSS/comments/7fxtdm/refined_find_bar_top_right_aligned_animated/)).
 
 ## Installation
@@ -34,6 +36,6 @@ Windows installation script is not available (yet).
 
 ## Known Issues
 - Downloads, Pocket, Favorites and other popups are not themed;
-- about:preferences and about:addons are not themed;
+- about:addons not themed;
 - Title bar is not themed;
 - Scrollbar is not themed.
